@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2019_09_12_011654) do
+=======
+ActiveRecord::Schema.define(version: 7) do
+>>>>>>> f0b1721b4a8df56b43191daae16eb15c2b0e0924
 
   create_table "actors", force: :cascade do |t|
     t.string "first_name"
@@ -35,7 +39,10 @@ ActiveRecord::Schema.define(version: 2019_09_12_011654) do
     t.string "day"
     t.string "genre"
     t.string "season"
+<<<<<<< HEAD
     t.string "time"
+=======
+>>>>>>> f0b1721b4a8df56b43191daae16eb15c2b0e0924
   end
 
 end
